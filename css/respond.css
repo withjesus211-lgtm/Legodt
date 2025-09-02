@@ -156,6 +156,9 @@
         width: 100%;
         top: 220px;
     }
+    .make-your-wrap .make-your .img-box{
+        min-height: 30dvh;
+    }
     .make-your .text-box .lets-btn{
         padding: 1rem 3rem;
         font-size: 1.6rem;
@@ -163,10 +166,12 @@
     .new-in-wrap .outline-title{
         font-size: 6rem;
     }
-    .new-in-wrap .shop-now-btn>a,
-    .arrow-list>li>a{
+    .new-in-wrap .shop-now-btn>a{
         padding: 1rem 3rem;
         font-size: 1.6rem;
+    }
+    .arrow-list>li>a{
+        padding: 0.6rem 3rem;
     }
      .tab-menu-list{
         font-size: 1.75rem;
