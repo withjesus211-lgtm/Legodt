@@ -1,0 +1,25 @@
+*   { margin: 0; padding: 0;}
+li  { list-style: none;}
+a   { 
+    text-decoration: none; 
+    color: inherit;
+}
+img, video { 
+    vertical-align: middle;
+}
+img{
+    max-width: 100%;
+}
+em, i, address{ font-style: normal;}
+/* blind */
+.blind{ 
+    position: absolute;
+    top: -10000px;
+}
+/* button */
+button{
+    cursor: pointer;
+}
+body{
+    color: #222;
+}
