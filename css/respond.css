@@ -8,13 +8,44 @@
 @media screen and (max-width:980px){
     /* 1. 제거하기 */
     header{
-        .main-menu,
+        z-index: 1000000;
+        /* .main-menu, */
         .header-right{
             display: none;
         }
         .header-left{
-            /* top: -50%; */
+            top: -50%;
             transform: translateY(40%);
+            line-height: 56px;
+        }
+        nav{
+            background: rgba(0, 0, 0, 0.2);
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            left: -110vw;
+        }
+        .main-menu{
+            display: block;
+            max-width: 640px;
+            min-width: 320px;
+            background: #ef4da2;
+            height: 100%;
+        }
+        .main-menu:hover .depth1{
+            display: none;
+        }
+        .main-menu>li:hover .depth1{
+            height:unset;
+            display: block;
+        }
+        .depth1{
+            display: none;
+            position: static;
+            height: auto;
+            transform: translateX(0);
+            text-indent: 40px;
         }
     }
     address,
@@ -151,8 +182,11 @@
         width: 100%;
         top: 220px;
     }
+    .make-your .text-box .slider-title{
+        font-size: 4rem;
+    }
     .make-your-wrap .make-your .img-box{
-        min-height: 30dvh;
+        min-height: 40dvh;
     }
     .make-your .text-box .lets-btn{
         padding: 1rem 3rem;

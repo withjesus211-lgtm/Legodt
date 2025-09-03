@@ -16,18 +16,19 @@ body{
     font-family : "Outfit", "Suit", sans-serif;
     font-size: 1.6rem;
     color: var(--font-base-color);
+    background: #f3f3f3;
 }
 
 .wide-inner{
     position: relative;
     margin:0 2.5%;
-    background-color: rgba(255, 0, 0, 0.2);
+    /* background-color: rgba(255, 0, 0, 0.2); */
 }
 .inner{
     margin: 0 auto;
     padding: 0 2.5%;
     max-width: 1680px;
-    background-color: rgba(0, 0, 255, 0.2);
+    /* background-color: rgba(0, 0, 255, 0.2); */
 }
 /* header */
 header{
@@ -89,9 +90,6 @@ header{
         top: 70px;
         left: 50%;
         transform: translateX(-50%);
-        >li{
-            >a{}
-        }
     }
     .main-menu >li:hover .depth1{
         height: 120px;
@@ -111,7 +109,7 @@ header{
             line-height: 70px;
             >li{
                 position: relative;
-                background-color: skyblue;
+                /* background-color: skyblue; */
                 >a{
                     color: #fff;
                     font-weight: 600;
@@ -271,7 +269,7 @@ header{
     transform: scale(1.1);
 }
 .make-your-wrap{
-    background: #9a9a9a;
+    /* background: #9a9a9a; */
     position: relative;
     display: flex;
     flex-direction: column;
